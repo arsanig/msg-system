@@ -3,7 +3,7 @@ services:
   backend:
     image: express-app
     build: .
-    command: tail -F node src/app.js
+    command: node src/app.js
     ports:
       - "8081:8081"
     volumes: 
@@ -13,7 +13,6 @@ services:
       - "mongo"
   mongo:
     image: "mongo"
-    command: tail -F
     ports:
       - "27017:27017"
     
