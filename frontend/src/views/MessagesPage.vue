@@ -22,7 +22,7 @@
       </table>
     </div>
     <div v-else>
-      There are no posts.. Lets add one now <br /><br />
+      There are no messages.. Lets add one now <br /><br />
       <router-link v-bind:to="{ name: 'NewMessage' }" class="new-msg-link">New Message</router-link>
     </div>
   </div>

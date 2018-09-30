@@ -1,5 +1,5 @@
 <template>
-  <div class="messages">
+  <div class="new-messages">
     <h1>Add a new message</h1>
       <div class="form">
         <div>
