@@ -13,7 +13,7 @@ app.listen(process.env.PORT || 8081)
 var Message = require("../models/message");
 
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/posts', { useNewUrlParser: true });
+mongoose.connect('mongodb://172.31.26.247:27017/posts', { useNewUrlParser: true });
 var db = mongoose.connection;
 db.on("error", console.error.bind(console, "connection error"));
 db.once("open", function (callback) {
