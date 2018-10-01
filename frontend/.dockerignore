@@ -3,3 +3,4 @@ Dockerfile
 .DS_Store
 .gitignore
 README.md
+node_modules/

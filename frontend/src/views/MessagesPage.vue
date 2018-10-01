@@ -86,15 +86,15 @@ table tr:nth-child(odd) {
   background: #f2f2f2;
 }
 table tr:nth-child(1) {
-  background: #4d7ef7;
+  background: #6fb43f;
   color: #fff;
 }
 a {
-  color: #4d7ef7;
+  color: #5f6062;
   text-decoration: none;
 }
 a.new-msg-link {
-  background: #4d7ef7;
+  background: #6fb43f;
   color: #fff;
   padding: 10px 80px;
   text-transform: uppercase;

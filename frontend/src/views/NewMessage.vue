@@ -43,7 +43,7 @@ export default {
   margin: 20px;
 }
 .submit-msg-btn {
-  background: #4d7ef7;
+  background: #6fb43f;
   color: #fff;
   padding: 10px 80px;
   text-transform: uppercase;
