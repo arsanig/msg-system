@@ -8,7 +8,7 @@ app.use(morgan('combined'))
 app.use(bodyParser.json())
 app.use(cors())
 
-app.listen(process.env.PORT || 8081)
+app.listen(8081)
 
 var Message = require("../models/message");
 
