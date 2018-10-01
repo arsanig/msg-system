@@ -1,14 +1,19 @@
 version: '3'
 services:
+  frontend:
+    image: vue-app
+    build: ./frontend
+    command: npm run dev
+    ports:
+      - "8080:8080"
+    depends_on:
+      - "backend"
   backend:
     image: express-app
     build: ./backend
     command: node src/app.js
     ports:
       - "8081:8081"
-    volumes: 
-      - ./:/backend
-      - ./backend/node_modules
     depends_on:
       - "mongo"
   mongo:

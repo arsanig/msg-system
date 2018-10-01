@@ -13,20 +13,7 @@ app.listen(8081)
 var Message = require("../models/message");
 
 var mongoose = require('mongoose');
-
-const connectWithRetry = () => {
-  console.log('MongoDB connection with retry')
-  mongoose.connect("mongodb://mongo:27017/messages", { useNewUrlParser: true }).then(()=>{
-    console.log('MongoDB is connected')
-  }).catch(err=>{
-    console.log('MongoDB connection unsuccessful, retry after 5 seconds.')
-    setTimeout(connectWithRetry, 5000)
-  })
-}
-
-connectWithRetry()
-
-// mongoose.connect('mongodb://172.31.26.247:27017/messages', { useNewUrlParser: true });
+mongoose.connect('mongodb://mongo:27017/messages', { useNewUrlParser: true });
 var db = mongoose.connection;
 db.on("error", console.error.bind(console, "connection error"));
 db.once("open", function (callback) {
