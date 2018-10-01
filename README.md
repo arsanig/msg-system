@@ -20,7 +20,7 @@ A simple archecture diagram of the app [here](https://imgur.com/a/YOKvw25).
 ### Starting the project application
 
 1. Clone the repo onto your computer
-2. Open a terminal/console window and change your directory to the project's frontend folder
+2. Open a terminal/console window and change your directory to the project's folder
 3. Run `docker-compose build`
 4. When finished run `docker-compose up`
 6. In a browser open `http://localhost:8080/messages` and the app will be running
