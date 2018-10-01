@@ -37,11 +37,11 @@ Retrieves and lists all the messages in the database. An example response:
     "messages": [
         {
             "_id": 1,
-            "message": "race car",
+            "message": "race car"
         },
         {
             "_id": 2,
-            "message": "Not a palindrome!",
+            "message": "Not a palindrome!"
         }
     ]
 }
@@ -60,6 +60,6 @@ Deletes a message. Accepts a JSON object in the body of the request. An example 
 ```
 {
 	"_id": 1,
-    "message": "race car",
+    "message": "race car"
 }
 ```
