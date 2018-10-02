@@ -1,5 +1,3 @@
-# Qlik Audition Project
-
 Hi :wave: ! This is a simple single page web application (SPA) that allows you to post messages, check if they're palindromes, and delete the messages. I've only ever made a fullstack application once before this so it was a fun learning experience.
 
 The stack I'm using is known as a MEVN or VENoM stack (Mongo, Express.js, Vue.js, Node.js).
