@@ -4,6 +4,12 @@ The stack I'm using is known as a MEVN or VENoM stack (Mongo, Express.js, Vue.js
 
 I chose to make a SPA due to the simplicity of the application. SPAs serve all the static files first and only make JSON responses from the server. All this allows for a faster and more responsive experience.
 
+> To fix:
+> - Error handling
+> - Fix separation of concerns with routing
+> - Tests
+> - Allow for larger JSON payloads
+
 ## Architecture
 
 A simple archecture diagram of the app [here](https://imgur.com/a/YOKvw25).
